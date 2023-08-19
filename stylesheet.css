@@ -1,16 +1,25 @@
+
+/*General*/
 * ¨{
     box-sizing: border-box;
-    font-family: roboto, "system-UI", sans-serif;
+    font-family: roboto,'Segoe UI', sans-serif;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+/* NavBar Section*/
 .navbar-container {
+    background-color: #1f2937;
     display: flex;
     justify-content:center;
     align-items: center;
-    padding: 0 24px;
+    padding: 0 24px;;
 }
 
 .navbar-list {
+    color: white;
     display: flex;
     list-style: none;
     gap: 16px;
@@ -18,6 +27,34 @@
 }
 
 .navbar-logo {
+    color: white;
+    font-weight: bold;
     font-size: 24px;
     margin-right: auto;
+}
+/*Hero Section*/
+.hero-container {
+    background-color: #1f2937;
+    color: white;
+    margin: 0;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 32px;
+    background-color: blue;
+}
+
+.hero-image {
+    height: auto;
+    width: 400px;
 }

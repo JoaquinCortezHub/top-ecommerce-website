@@ -6,3 +6,4 @@ by following @The Odin Project curriculum.
 
 Credits for the images and other resources used in this page:
 
+Hero Image by: ![Alt text](charlesdeluvio-Lks7vei-eAg-unsplash.jpg)
