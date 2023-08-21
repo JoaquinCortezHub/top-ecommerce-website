@@ -2,7 +2,7 @@
 /*General*/
 * ¨{
     box-sizing: border-box;
-    font-family: roboto,'Segoe UI', sans-serif;
+    font-family:sans-serif
 }
 
 body {
@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content:center;
     align-items: center;
-    padding: 0 24px;;
+    padding: 0 48px;;
 }
 
 .navbar-list {
@@ -34,27 +34,50 @@ body {
 }
 /*Hero Section*/
 .hero-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 20px 48px;
+    gap: 20px;
     background-color: #1f2937;
     color: white;
-    margin: 0;
-    padding: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    flex-grow: 1;
 }
 
 .hero-content {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    flex: 1;
+    justify-content: center;
     align-items: flex-start;
-    padding: 32px;
-    background-color: blue;
+    padding: 16px;
 }
 
 .hero-image {
     height: auto;
-    width: 400px;
+    width: 600px;
+}
+
+.hero-heading {
+    flex: 1;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.hero-button {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 12px;
+    margin-top: 20px;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.hero-p {
+    
+    font-size: 18px;
+    max-width:90%;
 }
