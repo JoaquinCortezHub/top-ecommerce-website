@@ -132,3 +132,32 @@ body {
     font-weight: 600;
     text-align: center;
 }
+/*Quote section*/
+.quote-section {
+    padding: 20px 56px;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.author-text {
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 0;
+}
+/*CtA Section*/
